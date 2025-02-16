@@ -38,7 +38,7 @@ As discussed in the article, the network under analysis has *V=80* nodes and *5*
 
 Posterior computation via Gibbs-sampling for ZIP-SBM and its competitors (ESBM and P-SBM)
 ================
-This section contains the code to **implement the Gibbs sampler for ZIP-SBM** [function `esbm_zip()`], and its competitors ESBM [function `esbm_binary()`] and P-SBM [function `esbm_count()`]. See the source code `zip_sbm_source.R` for a detailed description of the inputs and the outputs of these functions.
+This section contains the code to **implement the Gibbs sampler for ZIP-SBM** [function `esbm_zip()`], and its competitors, i.e., ESBM [function `esbm_binary()`] and P-SBM [function `esbm_count()`]. See the source code `zip_sbm_source.R` for a detailed description of the inputs and the outputs of these functions.
 
 ESBM (first competitor)
 ------------------
