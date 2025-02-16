@@ -152,7 +152,7 @@ rm(Z_zip,pi_lambda_zip)
 
 Posterior inference under ZIP-SBM and its competitors (ESBM and P-SBM) [Table 1: Scenario 2]
 ================
-This section contains the **code to perform estimation, uncertainty quantification and model selection for ZIP-SBM and its competitors (ESBM and P-SBM)** leveraging the samples from the previous Gibbs samplers. In particular, we **reproduce the analyses in Table 1 of the article**, for **scenario 2**. To accomplish this goal let us first **clear the workspace** and **load useful libraries and data**.
+This section contains the **code to perform estimation and uncertainty quantification under ZIP-SBM and its competitors (ESBM and P-SBM)** leveraging the samples from the previous Gibbs samplers. In particular, we **reproduce the analyses in Table 1 of the article**, for **scenario 2**. To accomplish this goal let us first **clear the workspace** and **load useful libraries and data**.
 
 ``` r
 rm(list=ls())
