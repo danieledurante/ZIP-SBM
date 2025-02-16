@@ -1,6 +1,6 @@
 # ZIP-SBM: Zero-inflated Poisson stochastic block model
 
-This repository is associated with the article **Zero-Inflated Stochastic Block Modeling of Efficiency-Security Tradeoffs in Weighted Criminal Networks**, and aims at providing detailed tutorials and codes to implement the **ZIP-SBM** presented in the article*.
+This repository is associated with the article [**Zero-Inflated Stochastic Block Modeling of Efficiency-Security Tradeoffs in Weighted Criminal Networks**](https://arxiv.org/abs/2410.23838), and aims at providing detailed tutorials and codes to implement the **ZIP-SBM** presented in the article.
 
 The documentation is organized as described below.  
 
