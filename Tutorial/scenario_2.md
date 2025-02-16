@@ -132,13 +132,7 @@ my_x <- z_noise
 my_alpha_xi <- rep(1,5)
 
 # run Gibbs sampler to sample the cluster indicators
-start_time <- Sys.time()
-
 Z_zip <- esbm_zip(Y=Y, my_seed, N_iter, my_z, a=1, b=9, a_1=1, a_2=1, gamma_GN = 0.3,x = my_x, alpha_xi = my_alpha_xi)
-
-end_time <- Sys.time()
-(end_time - start_time)/20
-#7.4 seconds
 
 # compute a point estimate of z
 c_Z_zip <- pr_cc(Z_zip[,(burn_in+1):N_iter])
