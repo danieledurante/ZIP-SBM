@@ -241,7 +241,6 @@ max(hat_Z_count)
 
 # horizontal bound of the credible ball
 credibleball(memb_Z_count$cl,t(Z_count[,(burn_in+1):N_iter]))[[5]]
-#[1] 0.6956093
 
 # VI distance of point estimate from z_0
 VI(z_0,t(hat_Z_count))
