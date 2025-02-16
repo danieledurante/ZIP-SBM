@@ -1,6 +1,6 @@
 Tutorial
 ================
-This tutorial contains guidelines and code to perform the analyses for the second scenario (`simulated_network_2.RData`) considered in the simulation study of the article **Zero-Inflated Stochastic Block Modeling of Efficiency-Security Tradeoffs in Weighted Criminal Networks**. In particular, you will find a detailed step-by-step guide and `R` code to **implement the Gibbs sampler presented in the article** for ZIP-SBM and to **reproduce the results for the second scenario** presented in Table 1 of the article. For implementation purposes, please **execute the code below considering the same order in which is presented**.
+This tutorial contains guidelines and code to perform the analyses for the second scenario (`simulated_network_2.RData`) considered in the simulation study of the article [**Zero-Inflated Stochastic Block Modeling of Efficiency-Security Tradeoffs in Weighted Criminal Networks**](https://arxiv.org/abs/2410.23838). In particular, you will find a detailed step-by-step guide and `R` code to **implement the Gibbs sampler presented in the article** for ZIP-SBM and to **reproduce the results for the second scenario** presented in Table 1 of the article. For implementation purposes, please **execute the code below considering the same order in which is presented**.
 
 Import the data
 ================
