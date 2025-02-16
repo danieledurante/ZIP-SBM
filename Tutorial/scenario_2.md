@@ -179,7 +179,8 @@ load("simulated_network_2.RData")
 V <- dim(Y)[1]
 
 # note that Y must have diagonal equal to 0
-diag(Y)```
+diag(Y)
+```
 
 Once this has been done, the performance measures discussed in the article for ESBM, P-SBM and the proposed ZIP-SBM (under scenario 2) can be obtained by executing the code below.
 
@@ -279,4 +280,4 @@ VI(z_0,t(hat_Z_zip))
 
 # Normalized mutual information
 NMI(z_0,hat_Z_zip)
- ```
+```
