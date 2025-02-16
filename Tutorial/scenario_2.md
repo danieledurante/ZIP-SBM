@@ -65,7 +65,7 @@ c_Z_binary <- pr_cc(Z_binary[,(burn_in+1):N_iter])
 memb_Z_binary <- minVI(c_Z_binary,method="avg",max.k=20)
 hat_Z_binary <- memb_Z_binary$cl
 
-# run Gibbs sampler to sample the block probabilities given hat_z_binary
+# run Gibbs sampler to sample the block probabilities given hat_Z_binary
 pi_binary <- sample_pi(z=hat_Z_binary,Y_bin=(Y>0)*1, my_seed, N_iter, a=1, b=1)
 ```
 
@@ -102,7 +102,7 @@ c_Z_count <- pr_cc(Z_count[,(burn_in+1):N_iter])
 memb_Z_count <- minVI(c_Z_count,method="avg",max.k=20)
 hat_Z_count <- memb_Z_count$cl
 
-# run Gibbs sampler to sample the block lambdas given hat_z_lambda
+# run Gibbs sampler to sample the block lambdas given hat_Z_count
 lambda_count <- sample_lambda(z=hat_Z_count,Y_count=Y, my_seed, N_iter, a_1=1, a_2=1)
 ```
 
@@ -139,7 +139,7 @@ c_Z_zip <- pr_cc(Z_zip[,(burn_in+1):N_iter])
 memb_Z_zip <- minVI(c_Z_zip,method="avg",max.k=20)
 hat_Z_zip <- memb_Z_zip$cl
 
-# run Gibbs sampler to sample the block lambdas given hat_z_lambda
+# run Gibbs sampler to sample the block probabilities and block lambdas given hat_Z_zip
 pi_lambda_zip <- sample_lambda_pi(z=hat_Z_zip,Y=Y, my_seed, N_iter, a=1, b=9, a_1=1, a_2=1)
 ```
 
