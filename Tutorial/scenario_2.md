@@ -9,7 +9,6 @@ To start the analysis, **set the working directory** in this `Tutorial` folder (
 ``` r
 rm(list=ls())
 source("zip_sbm_source.R")
-Rcpp::sourceCpp('stirling.cpp')
 
 library(reshape)
 library(gdata)
@@ -157,7 +156,6 @@ This section contains the **code to perform estimation and uncertainty quantific
 ``` r
 rm(list=ls())
 source("zip_sbm_source.R")
-Rcpp::sourceCpp('stirling.cpp')
 
 library(reshape)
 library(gdata)
