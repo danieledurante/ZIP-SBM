@@ -6,7 +6,7 @@ The documentation is organized as described below.
 
 - `zip_sbm_source.R`.  It contains all the **source** `R` **functions** which are required to perform posterior computation and inference under the proposed **ZIP-SBM**  and its relevant competitors (i.e., ESBM and P-SBM).
 
-- `Tutorial`. It contains data [see `simulated_network_2.RData`], source codes [see `zip_sbm_source.R` and  `stirling.cpp`], and a step-by-step tutorial [see `scenario_2.md`]  to implement the proposed **ZIP-SBM**  and its relevant competitors (ESBM and P-SBM), with a focus on reproducing the results for **scenario 2** in Table 1 in the article.
+- `Tutorial`. It contains data [see `simulated_network_2.RData`], source codes [see `zip_sbm_source.R`], and a step-by-step tutorial [see `scenario_2.md`]  to implement the proposed **ZIP-SBM**  and its relevant competitors (ESBM and P-SBM), with a focus on reproducing the results for **scenario 2** in Table 1 in the article.
 
 The analyses are performed with a  **MacBook Air (M1, 2020), CPU 8–core and 8GB RAM (macOS Monterey, version 12.5)**, using the `R` version 4.2.2
 
